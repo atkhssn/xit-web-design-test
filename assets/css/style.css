@@ -21,9 +21,10 @@
 /* site button */
 .site-btn{
     background-color: #e84545;
-    padding: 10px 20px;
+    padding: 13px 25px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: 600;
     font-size: 13pt;
     color: #fff;
@@ -268,12 +269,6 @@
     color: #e84545 !important;
 }
 
-/* back to top visibility */
-.backToTop{
-    visibility: visible;
-    transition: all .2s ease-in;
-}
-
 /* testimonial left css */
 .testimonial-start{
     background-image: url(../img/section-banner-1.png);
@@ -319,4 +314,32 @@
     font-size: 11pt;
     color: #fff;
     padding: 10px 30px;
+}
+
+/* download heading css */
+.download-content-box > div > h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 28pt;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: #2d3033;
+}
+
+/* download sub heading css */
+.download-content-box > div > h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 13pt;
+    padding: 0;
+    margin: 20px 0 50px;
+    line-height: 1;
+    color: #2d3033;
+}
+
+/* back to top visibility */
+.backToTop{
+    visibility: visible;
+    transition: all .2s ease-in;
 }
