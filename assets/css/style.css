@@ -204,9 +204,65 @@
 
 /* team image */
 .team-img{
-    border: 1px solid #e84545;
     width: 100%;
+}
 
+/* team title css */
+.team-title{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18pt;
+    color: #2d3033;
+}
+
+/* team sub title css */
+.team-sub-title{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 13pt;
+    color: #e84545;
+}
+
+/* team paragraph css */
+.team-paragraph{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: #6c7279;
+}
+
+/* team social icon css */
+.team-social-icon{
+    margin-top: 50px;
+}
+
+/* social media icon css */
+.team-social-icon > div.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    padding: 15px;
+    border: 1px solid #c6cacc;
+    text-align: center;
+    line-height: 1;
+}
+
+/* social icon link css */
+.team-social-icon > div.icon a{
+    font-size: 13pt;
+    color: #c6cacc !important;
+}
+
+/* social icon hover effect css */
+.team-social-icon > div.icon:hover{
+    border: 1px solid #e84545;
+}
+
+/* social icon hover effect css */
+.team-social-icon > div.icon:hover > a{
+    color: #e84545 !important;
 }
 
 /* back to top visibility */
