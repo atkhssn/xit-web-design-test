@@ -7,6 +7,7 @@
 
 /* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
 
 /* browser settings */
 *{
@@ -247,12 +248,14 @@
     border: 1px solid #c6cacc;
     text-align: center;
     line-height: 1;
+    transition: all .2s ease-in;
 }
 
 /* social icon link css */
 .team-social-icon > div.icon a{
     font-size: 13pt;
     color: #c6cacc !important;
+    transition: all .2s ease-in;
 }
 
 /* social icon hover effect css */
@@ -269,4 +272,51 @@
 .backToTop{
     visibility: visible;
     transition: all .2s ease-in;
+}
+
+/* testimonial left css */
+.testimonial-start{
+    background-image: url(../img/section-banner-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding: 20pt;
+}
+
+/* testimonials right css */
+.testimonial-end{
+    background-image: url(../img/section-banner-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    padding: 20pt;
+}
+
+/* testimonials content box css */
+.testimonial-end > .testimonial-content > .testimonial-content-box {
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+
+/* testimonial quote css */
+.testimonial-end > .testimonial-content > .testimonial-content-box > p.testimonial-quote{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-size: 33pt;
+    font-weight: 400;
+    color: #fff;
+    padding: 15px 30px;
+    line-height: 1;
+}
+
+/* testimonial title css */
+.testimonial-end > .testimonial-content > .testimonial-content-box > p.testimonial-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 11pt;
+    color: #fff;
+    padding: 10px 30px;
 }
