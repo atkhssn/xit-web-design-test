@@ -287,33 +287,34 @@
     background-size: cover;
     min-height: 500px;
     padding: 20pt;
+    overflow: none;
 }
 
 /* testimonials content box css */
-.testimonial-end > .testimonial-content > .testimonial-content-box {
+.testimonial-content  .testimonial-content-box {
     margin: 0 auto;
     padding: 30px 0;
     
 }
 
 /* testimonial quote css */
-.testimonial-end > .testimonial-content > .testimonial-content-box > p.testimonial-quote{
+.testimonial-content .testimonial-content-box p.testimonial-quote{
     font-family: 'Cardo', serif;
     font-style: italic;
-    font-size: 33pt;
+    font-size: 30pt;
     font-weight: 400;
     color: #fff;
-    padding: 15px 30px;
+    padding: 20px 20px 0;
     line-height: 1;
 }
 
 /* testimonial title css */
-.testimonial-end > .testimonial-content > .testimonial-content-box > p.testimonial-title{
+.testimonial-content .testimonial-content-box p.testimonial-title{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    font-size: 11pt;
+    font-size: 10pt;
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 
 /* download heading css */
@@ -407,4 +408,21 @@
 .backToTop{
     visibility: visible;
     transition: all .2s ease-in;
+}
+
+.slick-dots{
+    
+}
+
+.slick-dots li{
+    color: #3a3e64;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid #fff;
+}
+
+.slick-dots li.slick-active{
+    background-color: #e84545;
 }
