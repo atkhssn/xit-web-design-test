@@ -1,4 +1,11 @@
-/* Google Fonts */
+/*
+    Project Name: Multi Purpose Template
+    Designed By: atkhssn - MD ATIK HASSAN
+    Version: 1.0.1
+    Copyright: XIT
+*/
+
+/* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
 
 /* browser settings */
@@ -45,24 +52,6 @@
     color: #6c7279;
 }
 
-/* project-title */
-.project-title{
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14pt;
-    color: #fff;
-}
-
-/* project-details */
-.project-details{
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 13pt;
-    color: #fff;
-}
-
 /* menu button*/
 .menu-btn{
     color: #fff;
@@ -83,20 +72,6 @@
     box-shadow: none !important;
 }
 
-/* heading text font size */
-.heading-text{
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 55pt;
-}
-
-/* sub heading font size */
-.sub-heading-text{
-    font-family: 'Raleway', sans-serif;
-    font-size: 18pt;
-}
-
 /* menu font size */
 .menu-text{
     font-family: 'Raleway', sans-serif;
@@ -110,6 +85,20 @@
 /* menu hover */
 .menu-text:hover{
     color: #e84545;
+}
+
+/* heading text font size */
+.heading-text{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 55pt;
+}
+
+/* sub heading font size */
+.sub-heading-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
 }
 
 /* banner */
@@ -126,11 +115,16 @@
     transition: all .2s ease-in;
 }
 
+/* sticky Header */
+.sticky-header{
+    background-color: #3a3e64;
+    transition: all .2s ease-in;
+}
+
 /* features content box css */
 .features-content-box{
     padding: 0 5px;
 }
-
 
 /* works content box css */
 .works-content-box{
@@ -167,12 +161,6 @@
     min-height: 100%;
 }
 
-
-.sticky-header{
-    background-color: #3a3e64;
-    transition: all .2s ease-in;
-}
-
 /* back to top */
 .back-to-top{
     background-color: #3a3e64;
@@ -191,6 +179,25 @@
     transition: all .2s ease-in;
 }
 
+/* project-title */
+.project-title{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14pt;
+    color: #fff;
+}
+
+/* project-details */
+.project-details{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13pt;
+    color: #fff;
+}
+
+/* back to top visibility */
 .backToTop{
     visibility: visible;
     transition: all .2s ease-in;
