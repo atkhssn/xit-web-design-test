@@ -343,11 +343,56 @@
     background-color: #3a3e64;
 }
 
+/* footer title share */
+.footer-content > h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    padding: 0;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #fff;
+}
+
+/* footer paragraph css */
+.footer-content > p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+
+    line-height: 1.2;
+    color: #fff;
+}
+
+/* share social css */
+.share-social-icon{
+    margin-bottom: 20px;
+}
+
+/* share icon css */
+.share-social-icon > div.icon{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    padding: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 1;
+    transition: all .2s ease-in;
+}
+
+/* share icon link css */
+.share-social-icon > div.icon a{
+    color: #fff;
+}
+
+/* copyright part css */
 .footer .copyright{
     background-color: #313454;
     padding: 20px;
 }
 
+/* copy right text css */
 .footer .copyright p{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
