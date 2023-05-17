@@ -338,6 +338,26 @@
     color: #2d3033;
 }
 
+/* footer part css */
+.footer{
+    background-color: #3a3e64;
+}
+
+.footer .copyright{
+    background-color: #313454;
+    padding: 15px;
+}
+
+.footer .copyright p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    color: #808080;
+}
+
 /* back to top visibility */
 .backToTop{
     visibility: visible;
