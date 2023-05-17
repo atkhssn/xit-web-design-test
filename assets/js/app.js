@@ -37,9 +37,9 @@ $(document).on('ready', function() {
     autoplay: true,
     infinite: true,
     dots: true,
+    arrows:false,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows:false
+    slidesToScroll: 1
   });
 
 });

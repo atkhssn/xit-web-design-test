@@ -275,7 +275,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 550px;
     padding: 20pt;
 }
 
@@ -285,9 +285,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 550px;
     padding: 20pt;
-    overflow: none;
+    overflow: hidden;
 }
 
 /* testimonials content box css */
@@ -360,14 +360,13 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 13pt;
-
     line-height: 1.2;
     color: #fff;
 }
 
 /* share social css */
 .share-social-icon{
-    margin-bottom: 20px;
+    margin: 20px 0 15px;
 }
 
 /* share icon css */
