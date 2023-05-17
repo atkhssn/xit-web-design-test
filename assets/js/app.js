@@ -8,7 +8,7 @@
 $(window).scroll(function() {
 
   // sticky header
-  if ($(this).scrollTop() > 115){
+  if ($(this).scrollTop() > 113){
     $('section.header').addClass("shadow-lg p-3 mb-5 sticky-header fixed-top");
     // console.log('scrolling..');
   }

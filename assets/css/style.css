@@ -197,6 +197,18 @@
     color: #fff;
 }
 
+/* team content box */
+.team-content-box{
+    padding: 20px;
+}
+
+/* team image */
+.team-img{
+    border: 1px solid #e84545;
+    width: 100%;
+
+}
+
 /* back to top visibility */
 .backToTop{
     visibility: visible;
