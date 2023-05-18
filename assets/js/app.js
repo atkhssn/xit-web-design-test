@@ -3,15 +3,15 @@
     Design By: atkhssn - MD ATIK HASSAN
     Version: 1.0.1
     Copyright: XIT
+    GitHub: https://github.com/atkhssn/xit-web-design-test
 */
 
-// window scroll function
+// window scroll event
 $(window).scroll(function() {
 
   // sticky header
   if ($(this).scrollTop() > 113){
     $('section.header').addClass("shadow-lg p-3 mb-5 sticky-header fixed-top");
-    // console.log('scrolling..');
   }
   else{
     $('section.header').removeClass("shadow-lg p-3 mb-5 sticky-header fixed-top");
@@ -20,7 +20,6 @@ $(window).scroll(function() {
   // top to bottom
   if ($(this).scrollTop() > 250){  
     $('div.back-to-top').addClass("backToTop");
-    // console.log('working...');
   }
   else{
     $('div.back-to-top').removeClass("backToTop");
@@ -29,7 +28,7 @@ $(window).scroll(function() {
 });
 
 
-// dom function
+// document object model event
 $(document).on('ready', function() {
 
   // slick slider init
@@ -41,7 +40,4 @@ $(document).on('ready', function() {
     slidesToShow: 1,
     slidesToScroll: 1
   });
-
 });
-
-

@@ -3,6 +3,7 @@
     Designed By: atkhssn - MD ATIK HASSAN
     Version: 1.0.1
     Copyright: XIT
+    GitHub: https://github.com/atkhssn/xit-web-design-test
 */
 
 /* import google fonts */
@@ -16,6 +17,10 @@
     outline: 0;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
+}
+
+html,body{
+    scroll-behavior: smooth;
 }
 
 /* site button */
@@ -409,19 +414,19 @@
     transition: all .2s ease-in;
 }
 
-.slick-dots{
-    
-}
-
+/* slick slider dots css */
 .slick-dots li{
     color: #3a3e64;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     padding: 5px;
-    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, .5);
+    transition: all .2s ease-in;
 }
 
+/* slick slider active dots css */
 .slick-dots li.slick-active{
-    background-color: #e84545;
+    background-color: rgba(255, 255, 255, 1);
+    transition: all .2s ease-in;
 }
